@@ -10,7 +10,7 @@
           //Criação de um objeto ex da classe Ex2
           Ex2 ex = new Ex2();
           //posição da tela ao abri-la
-          ex.setLocation(400,200);
+          ex.setLocation(300,200);
           //tornando a tela visível
           ex.setVisible(true);
        }
