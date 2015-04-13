@@ -148,7 +148,9 @@ public class Ex2 extends JFrame {
             //da mesma forma com Fpeso para a variável peso
             peso = Double.parseDouble(Fpeso.getText());
             //realiza calculos
-            massa = peso / (altura * altura);
+            massa = Math.round((peso / (altura * altura)) * 100);
+            massa = massa / 100;
+            
             /*Se a massa corporal for menor do que o estabelecido pelo vetor configure a variável string com essa frase*/
             if (tipo == 0) {
                 if (imc_mulheres[0] > massa) {
